@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+
+    <style>
+    fieldset {
+        background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+        display: block;
+        width: 400px;
+        margin: auto;
+        margin-top: 200px;
+      border-width: thick;
+      border-radius: 10px;
+      box-shadow: 7px 7px 5px grey;
+      position: relative;
+      font-family: Lobster;
+    }
+    #create{
+        text-decoration: none;
+        position: relative;
+        bottom: 8px;
+    }
+    
+      #create:hover, #rp:hover, #fp:hover{
+         color: rgb(202, 196, 209);
+         font-weight:900;
+         text-shadow: 0 0 10px rgb(202, 196, 209); 
+         
+      }
+    </style>
+    </head>
+    <body>
+    <fieldset>
+        <h1 style="color:rgb(71, 37, 104)";><center>Login Page</center></h1>
+    <a href="#" id="create"><i>Create Account</i><a>
+    <div class="table">
+        <label for="uname">Username:</label>
+    <input accesskey="i" type="text" name="username" id="uname" value="Pakapakapaks07"><br>
+    <label for="pw">Password:</label>
+    <input type="text" name="password" id="pw"  style="margin-left: 3px;"><br>
+    <input type="submit" name="login" value="Login">
+    </div>
+    
+    <p><a href="#" id="rp"><i>Reset Password | <a href="#" id="fp">Forgot Password</i></a></p>
+    </fieldset>
+    </body>
+    </html>
